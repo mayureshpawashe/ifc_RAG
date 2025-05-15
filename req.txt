@@ -1,0 +1,12 @@
+langchain
+openai
+chromadb
+python-dotenv
+pandas
+tqdm
+pandas
+sentence-transformers
+rich
+python-dotenv
+google-generativeai
+argparse

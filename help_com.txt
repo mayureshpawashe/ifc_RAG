@@ -1,0 +1,11 @@
+**commands -- > Uses
+
+analyze  -- >  The analyze command is used to examine your BIM model data without comparing it to any specific requirements schema.
+
+wall parameters -- > Show missing wall parameters in a table
+
+analysis summary -- > Show overall analysis summary
+
+exit, quit, q -- > Exit the interactive mode
+
+Compare expected_schema.json -- > Compare IFC data with expected schema 

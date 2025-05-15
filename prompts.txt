@@ -1,0 +1,9 @@
+Which doors have a fire rating of 60 minutes or higher?
+what is surface area value of SD-10 EI60S with unit?
+what is W/D Opening Nominal Surface Area of V-02d EI60 window?
+what is Nominal W/D Opening Height on the Side Opposite to the Reveal Side of SD-06 EI60S with unit?
+what is value of Steintykkelse (gs_masonry_arch_brick_thk) in meter of V-02d EI60 window?
+filter:wall what is Maximum Height of the Wall Skin on the Inside Face Value of KV-Klimaskille 150mm?
+what is DOOR OverallHeight of global id 0lt8vODIX7AAgQXEJbVkVL?
+what is Surface Area of the Slab Edges (Gross)?
+what is Nominal W/D Opening Surface Area on the Side Opposite to the Reveal Side of V-02d EI60 window?

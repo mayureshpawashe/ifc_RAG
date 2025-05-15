@@ -1,0 +1,54 @@
+{
+  "door": {
+    "parameters": [
+      "GlobalId", "Name", "Description", "ObjectType",
+      "Tag", "OverallHeight", "OverallWidth", "PredefinedType", 
+      "FireRating", "AcousticRating", "SecurityRating", "IsExternal", 
+      "ThermalTransmittance", "GlazingAreaFraction", "SmokeStop"
+    ],
+    "required_parameters": [
+      "GlobalId", "Name", "OverallHeight", "OverallWidth", "FireRating", "IsExternal"
+    ],
+    "description": "Expected schema for door elements"
+  },
+  "wall": {
+    "parameters": [
+      "GlobalId", "Name", "Description", "ObjectType",
+      "Tag", "Length", "Width", "Height", "Area", "Volume",
+      "IsExternal", "LoadBearing", "FireRating", "ThermalTransmittance",
+      "AcousticRating", "Compartmentation"
+    ],
+    "required_parameters": [
+      "GlobalId", "Name", "Length", "Width", "Height", 
+      "IsExternal", "FireRating", "ThermalTransmittance"
+    ],
+    "description": "Expected schema for wall elements"
+  },
+  "slab": {
+    "parameters": [
+      "GlobalId", "Name", "Description", "ObjectType",
+      "Tag", "PredefinedType", "Thickness", "Area", "Volume",
+      "IsExternal", "LoadBearing", "FireRating", "ThermalTransmittance",
+      "AcousticRating"
+    ],
+    "required_parameters": [
+      "GlobalId", "Name", "Thickness", "Area", 
+      "LoadBearing", "FireRating", "ThermalTransmittance"
+    ],
+    "description": "Expected schema for slab elements"
+  },
+  "windows": {
+    "parameters": [
+      "GlobalId", "Name", "Description", "ObjectType",
+      "Tag", "OverallHeight", "OverallWidth", "PartitioningType",
+      "UserDefinedPartitioningType", "FireRating", "AcousticRating",
+      "SecurityRating", "IsExternal", "ThermalTransmittance", 
+      "GlazingAreaFraction", "SmokeStop"
+    ],
+    "required_parameters": [
+      "GlobalId", "Name", "OverallHeight", "OverallWidth", 
+      "IsExternal", "ThermalTransmittance", "GlazingAreaFraction"
+    ],
+    "description": "Expected schema for window elements"
+  }
+}
