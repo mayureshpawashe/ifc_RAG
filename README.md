@@ -25,7 +25,7 @@ The **BIM RAG System** combines vector database technology with generative AI to
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/bim-rag.git
+git clone https://github.com/mayureshpawashe/ifc_RAG
 cd bim-rag
 
 # Install dependencies
@@ -158,10 +158,15 @@ The system is composed of several key modules:
 
 Ask questions like:
 
-- 🚪 *"How many external doors are in the model?"*  
-- 🧱 *"What’s the average height of walls?"*  
-- 🪟 *"Which windows have thermal transmittance values?"*  
-- 🏗️ *"List all load-bearing walls."*  
+- 🚪 *"Which doors have a fire rating of 60 minutes or higher?"*  
+- 🧱 *"What is surface area value of SD-10 EI60S with unit?"*  
+- 🪟 *"What is W/D Opening Nominal Surface Area of V-02d EI60 window?"*  
+- 🚪 *"What is Nominal W/D Opening Height on the Side Opposite to the Reveal Side of SD-06 EI60S with unit?"*  
+- 🪟 *"What is value of Steintykkelse (gs_masonry_arch_brick_thk) in meter of V-02d EI60 window?"*  
+- 🧱 *"filter:wall What is Maximum Height of the Wall Skin on the Inside Face Value of KV-Klimaskille 150mm?"*  
+- 🚪 *"What is DOOR OverallHeight of global id 0lt8vODIX7AAgQXEJbVkVL?"*  
+- 🛤️ *"What is Surface Area of the Slab Edges (Gross)?"*  
+- 🪟 *"What is Nominal W/D Opening Surface Area on the Side Opposite to the Reveal Side of V-02d EI60 window?"*
 
 ---
 
