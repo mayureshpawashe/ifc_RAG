@@ -26,7 +26,7 @@ The **BIM RAG System** combines vector database technology with generative AI to
 ```bash
 # Clone the repository
 git clone https://github.com/mayureshpawashe/ifc_RAG
-cd bim-rag
+cd ifc_RAG
 
 # Install dependencies
 pip install -r requirements.txt
