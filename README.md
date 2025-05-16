@@ -13,9 +13,10 @@ The BIM RAG system combines vector database technology with generative AI to pro
 🧠 LLM Integration: Generate natural language responses with Google's Gemini Flash
 📝 Detailed Reporting: HTML reports and console visualizations
 
-🛠️ Installation
+
+🛠️ # Installation
 bash# Clone the repository
-git clone https://github.com/yourusername/bim-rag.git
+git clone https://github.com/mayureshpawashe/ifc_RAG
 cd bim-rag
 
 # Install dependencies
