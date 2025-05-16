@@ -15,7 +15,7 @@ The BIM RAG system combines vector database technology with generative AI to pro
 
 
 🛠️ # Installation
-bash# 
+bash
 Clone the repository
 git clone https://github.com/mayureshpawashe/ifc_RAG
 cd bim-rag
@@ -26,3 +26,14 @@ pip install -r requirements.txt
 # Configure API key (for LLM functionality)
 # Create a .env file with your Google API key:
 echo "GOOGLE_API_KEY=your_key_here" > .env
+
+
+📋 Usage
+Data Preparation
+Export your BIM data to Excel files and place them in the data folder:
+
+🚪 ifc_door_export.xlsx
+🧱 ifc_wall_export.xlsx
+🛤️ ifc_slab_export.xlsx
+🪟 ifc_windows_export.xlsx
+📁 etc.
